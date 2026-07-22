@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, "Inter", sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-display: "Georgia", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-sahel-sand: #F2E9DE;
+  --color-sahel-earth: #D9C5B2;
+  --color-sahel-ink: #2D2926;
+  --color-sahel-ochre: #C68B59;
+  --color-sahel-olive: #7D7C44;
+  --color-sahel-clay: #A65D50;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-sahel-sand);
+  color: var(--color-sahel-ink);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-sahel-sand);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-sahel-earth);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sahel-ochre);
+}

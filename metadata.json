@@ -1,0 +1,8 @@
+{
+  "name": "Remix: KnewAfrikaan Creative Infrastructure",
+  "description": "DRM, rights management, and fintech platform bridging the Arewa/sub-Sahelian creative ecosystem with the global digital economy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
